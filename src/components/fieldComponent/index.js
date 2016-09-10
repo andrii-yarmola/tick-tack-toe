@@ -1,7 +1,6 @@
 'use strict';
 
 import React, { Component } from 'react';
-import {Table, Column, Cell} from 'fixed-data-table';
 import { connect } from 'react-redux';
 
 import { signAdd, turnChange, phaseCheck } from 'actions';
