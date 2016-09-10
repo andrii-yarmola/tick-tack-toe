@@ -1,0 +1,49 @@
+.game-block{
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  background: #ddd;
+  border: 1px solid red;
+}
+
+.game-table {
+  opacity: 0.6;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 50px;
+  line-height: 1;
+  color: #194;
+  table-layout: fixed;
+}
+
+td{
+  border: 1px solid blue;
+  height: 100px;
+  position: relative;
+}
+
+button{
+  cursor: pointer;
+  border: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background: transparent;
+  font-size: inherit;
+  background: #fff;
+  transition: all 0.4s;
+}
+
+button:hover{
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
